@@ -6,3 +6,5 @@
 #Anki - https://apps.ankiweb.net/ (Vocabulary)
 
 # print("Hello World")
+#  Python is a program installed into your computer
+# use the terminal in order to run python
