@@ -29,7 +29,7 @@
 
 # Examples of using input and print **********************************************
 # name = input("What is your name? ")
-#
+
 # print("Hello " + name + "!")
 
 # name = input("What is your name? ")
@@ -103,4 +103,29 @@
 #               print("Hello World")
 #           elif False:
 #               print("Goodbye World")
+
+# python uses functions to do things
+#  example: print("Hello World") is a function
+#  example: input("What is your name? ") is a function
+
+# you can call a function by using the name of the function and then parentheses
+#  example: print()
+#  example: input()
+
+# you can store a function in a variable
+#  example: print_function = print
+#  example: input_function = input
+
+# you can call a function stored in a variable by using the name of the variable and then parentheses
+#  example: print_function()
+#  example: input_function()
+
+# you can create your own functions
+#  example: def print_hello():
+#               print("Hello World")
+
+# you can call your own functions
+#  example: def print_hello():
+#               print("Hello World")
+#           print_hello()
 
