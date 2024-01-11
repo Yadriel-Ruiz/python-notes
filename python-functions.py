@@ -71,5 +71,3 @@
 #
 # # Test if 0 is in [1, 2, 3, 4]
 # test_list(0, [1, 2, 3, 4])  # Returns False
-
-
