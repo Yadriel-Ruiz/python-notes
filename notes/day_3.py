@@ -97,15 +97,38 @@
 # ["bb", "a"]	"bb"
 # ["a", "bb", "ccc", "bb"]	"ccc"
 
-def longest(strings):
-    longest_string = strings[0]
-    for string in strings:
-        if len(string) > len(longest_string):
-            longest_string = string
-    return longest_string
-print(longest(["a", "bb", "ccc", "bb"]))
+# def longest(strings):
+#     longest_string = strings[0]
+#     for string in strings:
+#         if len(string) > len(longest_string):
+#             longest_string = string
+#     return longest_string
+# print(longest(["a", "bb", "ccc", "bb"]))
+#
+# def yas(num_a):
+#     #takes the number given and adds that many a's to the string
+#     return "a" * num_a
 
-def yas(num_a):
-    #takes the number given and adds that many a's to the string
-    return "a" * num_a
-
+def monty(swaps):
+    # swaps contains L, O, and R
+    # if swaps contains L, then swap the first and second letters
+    # if swaps contains O, then swap the first and third letters
+    # if swaps contains R, then swap the second and third letters
+    #  0 <= swaps <= 0
+    # Q begins in the middle
+#     middle = "middle"
+#     left = ""
+#     right = ""
+#     for swap in swaps:
+#         if swap == "L":
+#             left = middle
+#             middle = left
+#         elif swap == "O":
+#             right = middle
+#             middle = right
+#         elif swap == "R":
+#             right = middle
+#             middle = right
+#     # return left, right or middle
+#     return
+# print(monty("LORLOOOORLLOLRRR"))
